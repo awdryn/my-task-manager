@@ -29,7 +29,7 @@ public class TaskDTO {
         this.title = task.getTitle();
         this.description = task.getDescription();
         this.start = task.getStart().format(formatter);
-        this.end = task.getEnd().format(formatter);
+        this.end = task.getFinish().format(formatter);
         this.state = task.getState().getStatusDesc();
     }
 
