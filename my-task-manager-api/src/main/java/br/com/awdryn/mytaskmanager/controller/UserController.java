@@ -18,7 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.awdryn.mytaskmanager.dto.UserDTO;
 import br.com.awdryn.mytaskmanager.service.UserService;
 
-@CrossOrigin
 @RestController
 @RequestMapping("/users")
 public class UserController {
